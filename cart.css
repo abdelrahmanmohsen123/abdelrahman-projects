@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* START NAVE BAR */
+.sec1{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px ;
+   
+}
+.sec1 >div >h1{
+    border: 2px black solid;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: dimgray;
+    display: 1;
+}
+#per{
+    padding: 20px;
+}
+#per a{
+    margin: 10px;
+}
+#per a:hover{
+    margin: 10px;
+    color:gray;
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+}
+#search{
+    border: none;
+}
+.search{
+    margin: 15px;
+    padding: 5px;
+}
+.sec2{
+    width: 100%;
+    height: 60px;
+
+}
+.sec2 >div{
+    /* position: absolute;
+    left: 30%; */
+    display: flex;
+    justify-content: center;
+}
+.sec2 >div>a{
+    margin-left: 20px;
+    padding: 10px;
+}
+
+/* END NAVE BAR */
+
+/* //////footer */
+
+footer{
+    padding: 10px;
+}
+#las{
+    padding: 10px;
+}
+#las >div>span{
+    margin:0px 10px;
+}
+th,td{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    border: 2px solid grey;
+    
+   
+
+}
+td{
+    position: relative;
+    top: 40px;
+}
+.im{
+    top: 0px
+}
+
+
+@media (min-width: 368px )  and (max-width: 766px) { 
+    td>h2 {
+        font-size: 8px;
+    }
+    td>a{
+        width: 10px;
+    }
+ }
+ @media (min-width: 766px )  and (max-width: 900px) { 
+    td>h2 {
+        font-size: 12px;
+    }
+ }
